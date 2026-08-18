@@ -1,7 +1,7 @@
 ---
 id: loopme-skill-identity
-status: proposal
-version: 1
+status: canonical
+version: 2
 updated: 2026-08-18
 ---
 
@@ -23,3 +23,7 @@ LoopMe es una capability MCP remota de Punto por Punto para ChatGPT Web. Su func
 ## Origen
 
 Adaptación de la skill beta `loop-me` de Matt Pocock en `mattpocock/skills`, preservando atribución y aviso MIT. La adaptación Punto por Punto añade el transporte MCP remoto compatible con ChatGPT Web y el modelo stateless/conversation-state.
+
+## Estado canónico
+
+El Project Pack fue incorporado a `main` mediante PR #1 y el proyecto fue registrado en `PuntoxPunto/Punto-x-Punto` mediante Registry PR #35.
