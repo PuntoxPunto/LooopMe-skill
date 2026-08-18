@@ -1,7 +1,7 @@
 ---
 id: loopme-skill-architecture
-status: proposal
-version: 1
+status: canonical
+version: 2
 updated: 2026-08-18
 ---
 
@@ -62,6 +62,10 @@ La implementación usa el golden path ya probado por Punto por Punto:
 - MCP gateway: `https://api-v2.appdeploy.ai/app/loopme-xkc1dm/api/mcp`;
 - QA final: 3/3;
 - backend endpoint coverage: 100%.
+
+## Integración canónica
+
+El Project Pack fue incorporado a `main` mediante PR #1 y el proyecto fue registrado mediante Registry PR #35, merge SHA `623fd5b98e54dd21d7a6fb1ec41afa74a0695270`.
 
 ## Rename pendiente
 
