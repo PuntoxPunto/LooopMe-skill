@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoopMe</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <main>
+      <p class="eyebrow">LOOPME · BETA ADAPTATION</p>
+      <h1>Turn repetition into a workflow.</h1>
+      <p class="lead">A read-only ChatGPT tool for discovering recurring loops and specifying them until an implementer can build the workflow without another question.</p>
+      <section class="card">
+        <div class="status"><span id="dot" class="dot pending"></span><strong id="status">Ready to test</strong></div>
+        <p id="detail">Runs a compatibility self-test without storing workflow or conversation data.</p>
+        <button id="test">Run MCP self-test</button>
+      </section>
+      <section class="card">
+        <h2>V1 boundaries</h2>
+        <p>Conversation-state only. No scheduling, no service mutations, no server-side persistence. Export a workflow spec when the design is complete.</p>
+      </section>
+    </main>
+  </div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
